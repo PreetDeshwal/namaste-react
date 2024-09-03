@@ -1,3 +1,75 @@
-#parent {
-    color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding-right: 30px;
+}
+
+.logo {
+    width: 140px;
+}
+
+.nav-item {
+    padding: 0px 20px;
+    margin-right: 130px;
+
+}
+
+.nav-items>ul {
+    display: flex;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.res-card {
+    margin: 10px;
+    padding: 5px;
+    width: 270px;
+    height: auto;
+}
+
+/* .res-container {
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+} */
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid rgb(213, 212, 212);
+    border-radius: 20px;
+}
+
+.res-container {
+
+    display: flex;
+    margin: 10px 110px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search {
+    padding: 15px;
+}
+
+.res-logo {
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    /* width: 100%;  
+    height: 200px;
+    border-radius: 10px; */
+
+}
+
+.filter-btn {
+    margin: 10px;
+    cursor: pointer;
 }
